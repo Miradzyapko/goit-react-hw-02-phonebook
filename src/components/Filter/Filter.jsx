@@ -2,7 +2,7 @@ import React from "react";
 import { input, label } from "./Filter.Styled";
 import PropTypes from 'prop-types';
 
-export const Filter = ({ value, onChange}) => {
+export const Filter = ({ value, onChange }) => {
   return (
    
     <label>Find contact by name
