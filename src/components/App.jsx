@@ -65,7 +65,6 @@ export class App extends Component {
     return (
       <Container>
         <ContactForm title="Phonebook" onSubmit={this.FormSubmitHandler} />
-        
          <Title>Contacts</Title>
          <Filter
           onChange={this. changeFilter}
